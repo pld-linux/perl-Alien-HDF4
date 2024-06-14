@@ -15,6 +15,8 @@ Source0:	https://www.cpan.org/modules/by-module/Alien/%{pdir}-%{pnam}-%{version}
 # Source0-md5:	f91416a74e4644639fd2b081c33c2060
 URL:		https://metacpan.org/dist/Alien-HDF4
 BuildRequires:	hdf-devel >= 1:4.2
+BuildRequires:	perl-ExtUtils-Depends >= 0.402
+BuildRequires:	perl-IO-All
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
