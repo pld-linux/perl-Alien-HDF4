@@ -8,7 +8,7 @@ Summary:	Alien::HDF4 - encapsulate install info for HDF4
 Summary(pl.UTF-8):	Alien::HDF4 - opakowanie informacji o instalacji HDF4
 Name:		perl-Alien-HDF4
 Version:	0.06
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/Alien/%{pdir}-%{pnam}-%{version}.tar.gz
