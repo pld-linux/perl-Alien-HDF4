@@ -17,11 +17,11 @@ URL:		https://metacpan.org/dist/Alien-HDF4
 BuildRequires:	hdf-devel >= 1:4.2
 BuildRequires:	perl-ExtUtils-Depends >= 0.402
 BuildRequires:	perl-IO-All
-BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-devel >= 1:5.10.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
-BuildRequires:	perl-Test-Simple
+BuildRequires:	perl-Test-Simple >= 0.88
 %endif
 Requires:	hdf-devel >= 1:4.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
